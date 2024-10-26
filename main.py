@@ -1,16 +1,20 @@
-def add_product(list_of_products, name):
-    list_of_products.append(name)
-    return 0
+
 
 def add_product(list_of_products, name):
     list_of_products.append(name)
-    return 0
 
-filename = input();
+def add_product(list_of_products, name):
+    list_of_products.append(name)
 
-with open(filename) as f:
-    for line in f:
-        quantidade, tipo, tamanho = line.split(" ")
-        print(quantidade)
-        print(tipo)
-        print(tamanho)
+def main():
+    filename = input()
+
+    with open(filename) as f:
+        for line in f:
+            quantidade, tipo, tamanho = line.split(" ")
+            print(quantidade)
+            print(tipo)
+            print(tamanho)
+
+if __name__ == main:
+    main()
