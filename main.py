@@ -1,3 +1,11 @@
+def add_product(list_of_products, name):
+    list_of_products.append(name)
+    return 0
+
+def add_product(list_of_products, name):
+    list_of_products.append(name)
+    return 0
+
 filename = input();
 
 with open(filename) as f:
