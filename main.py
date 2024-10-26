@@ -1,2 +1,6 @@
 with open("encomenda1.txt") as f:
-    print(f.read())
+    for line in f:
+        quantidade, tipo, tamanho = line.split(" ")
+        print(quantidade)
+        print(tipo)
+        print(tamanho)
