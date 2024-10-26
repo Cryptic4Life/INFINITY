@@ -2,8 +2,8 @@ def add_product(list_of_products, name):
     list_of_products.append(name)
     return 0
 
-def add_product(list_of_products, name):
-    list_of_products.append(name)
+def remove_product(list_of_products, name):
+    list_of_products.remove(name)
     return 0
 
 filename = input();
